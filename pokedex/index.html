@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Anything Goes Pokédex</title>
+        <meta name="description"
+              content="Use the Anything Goes Pokédex to generate a custom Pokédex entry for anything you want!">
+        <meta name="keywords" content="anything goes pokedex, pokemon, pokedex, custom pokedex, pokedex entries">
+        
+        <meta property="og:title" content="Anything Goes Pokédex">
+        <meta property="og:site_name" content="Anything Goes Pokédex">
+        <meta property="og:url" content="https://adamjle.github.io/pokedex">
+        <meta property="og:description"
+              content="Use the Anything Goes Pokédex to generate a custom Pokédex entry for anything you want!">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://adamjle.github.io/pokedex/res/card.png">
+        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@AdamJLE">
+        <meta name="twitter:title" content="Anything Goes Pokédex">
+        <meta name="twitter:description"
+              content="Use the Anything Goes Pokédex to generate a custom Pokédex entry for anything you want!">
+        <meta name="twitter:image" content="http://adamjle.github.io.com/pokedex/res/card.png">
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="app.css">
+        
+        <script src="data.js"></script>
+        <script src="util.js"></script>
+    </head>
+    <body>
+        <h1 id="intro">Enter anything you want - its Pokédex entry will appear!</h1>
+        <div id="input-container">
+            <input id="input" title="Name" type="text" placeholder="Name"> <input id="submit" value="GO" type="submit">
+        </div>
+        
+        <div id="output-container">
+            <div id="info">
+                <hr>
+                <span class="spacer"></span>INFO
+                <hr>
+            </div>
+            <div id="primary-output-window">
+                <div id="primary-header">
+                    <span id="number">N/A</span>
+                    <span id="name">N/A</span>
+                </div>
+                <div id="species">N/A</div>
+                <div id="types">
+                    <span class="type" id="primary-type">N/A</span>
+                    <span class="type" id="secondary-type">N/A</span>
+                </div>
+                <div id="height-container"><span class="stripe"></span>&nbsp;<span id="ht">HT</span><span
+                        id="height"></span></div>
+                <div id="weight-container"><span class="stripe"></span>&nbsp;<span id="wt">WT</span><span
+                        id="weight"></span></div>
+            </div>
+            <table id="base-stats">
+                <tr>
+                    <td>• HP</td>
+                    <td id="base-hp">N/A</td>
+                </tr>
+                <tr>
+                    <td>• Attack</td>
+                    <td id="base-attack">N/A</td>
+                </tr>
+                <tr>
+                    <td>• Defence</td>
+                    <td id="base-defence">N/A</td>
+                </tr>
+                <tr>
+                    <td>• Sp. Atk</td>
+                    <td id="base-special-attack">N/A</td>
+                </tr>
+                <tr>
+                    <td>• Sp. Def</td>
+                    <td id="base-special-defence">N/A</td>
+                </tr>
+                <tr>
+                    <td>• Speed</td>
+                    <td id="base-speed">N/A</td>
+                </tr>
+            </table>
+            <div id="description-container">
+                <div id="description">N/A</div>
+            </div>
+            <div id="background-stripe"></div>
+        </div>
+        
+        <center id="twitter-share">
+            <a id="link" href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+               data-size="large" data-text="" data-url="https://adamjle.github.io/pokedex" data-dnt="true"
+               data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </center>
+        
+        <footer id="footer">Data sourced from <a href="https://github.com/jalyna/oakdex-pokedex">oakdex</a>.
+            <a target="_blank" href="https://fontstruct.com/fontstructions/show/563645">"Pokemon B/W"</a> font by <a
+                    target="_blank" href="https://fontstruct.com/fontstructors/505970/metax">metax</a>
+            is licensed under a Creative Commons Attribution license. Made with &hearts; by <a
+                    href="https://twitter.com/AdamJLE">@AdamJLE</a>
+        </footer>
+        
+        <script src="app.js"></script>
+        
+        <!-- Pokémon data sourced from oakdex: https://github.com/jalyna/oakdex-pokedex -->
+        <!-- The FontStruction “Pokemon B/W” (https://fontstruct.com/fontstructions/show/563645) by “metax” is licensed under a Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/). -->
+    
+    </body>
+</html>
