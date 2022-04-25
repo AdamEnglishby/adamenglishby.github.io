@@ -156,11 +156,11 @@ input[type="text"]::placeholder {
 #description-container:before {
     font-size: 1.3rem;
     text-shadow: none;
-    content: 'adamjle.github.io/pokedex';
+    content: 'adamenglishby.github.io/pokedex';
     color: #737373;
-    clip-path: polygon(0 0, 14.5rem 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 22.5rem 0, 100% 100%, 0 100%);
     padding-left: 0.33rem;
-    right: calc(100% - 16rem);
+    right: calc(100% - 24rem);
 }
 
 #primary-output-window:after, #description-container:after, #base-stats:after {
@@ -176,7 +176,7 @@ input[type="text"]::placeholder {
 }
 
 #description-container:after {
-    left: 10rem;
+    left: 18rem;
 }
 
 #base-stats:after {

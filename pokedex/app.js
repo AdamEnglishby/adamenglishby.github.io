@@ -76,7 +76,7 @@ if (p !== null && p !== undefined && p !== "") {
         types += " & " + pokeTypes[secondaryType];
     }
     link.setAttribute("data-text", p + ": The " + species + "\n" + (types) + "\n" + description1 + "\n\nGenerate your own Pokémon:");
-    link.setAttribute("data-url", "https://adamjle.github.io/pokedex?pokemon=" + p);
+    link.setAttribute("data-url", "https://adamenglishby.github.io/pokedex?pokemon=" + p);
 
     $("twitter-share").style.display = "block";
 
